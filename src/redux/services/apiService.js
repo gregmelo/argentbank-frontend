@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:3001/api/v1";
+const API_URL = process.env.REACT_APP_API_URL + "/api/v1";
 
 /**
  * Effectue la connexion et retourne le token JWT.
